@@ -1,0 +1,33 @@
+{
+  "name": "disco-streams",
+  "version": "1.0.0", 
+  "description": "TypeScript-first, ergonomic wrapper around Node.js streams",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/disco-streams.git"
+  },
+  "keywords": [
+    "stream", "nodejs", "typescript", "transform", "pipeline"
+  ],
+  "author": "Your Name <you@example.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "ts-node": "^10.9.2",
+    "vitest": "^3.1.4"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
+
