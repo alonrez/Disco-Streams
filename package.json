@@ -14,12 +14,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/disco-streams.git"
+    "url": "https://github.com/alonrez/Disco-Streams.git"
+  },
+  "homepage": "https://github.com/alonrez/Disco-Streams/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/alonrez/Disco-Streams/issues"
   },
   "keywords": [
     "stream", "nodejs", "typescript", "transform", "pipeline"
   ],
-  "author": "Your Name <you@example.com>",
+  "author": "Alon Reznik",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.15.21",
